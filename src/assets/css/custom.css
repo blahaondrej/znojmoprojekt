@@ -1,0 +1,105 @@
+body {
+  scroll-behavior: smooth;
+}
+.logo img {
+  height: 30px;
+  width: auto;
+}
+
+.team .team-container:after {
+  background: #f0f0f0;
+}
+
+.contact .item img {
+  height: 30px;
+  width: 100px;
+}
+
+.main-footer.dark {
+  background: #242424;
+}
+
+.bg-gray {
+  background-color: #f0f0f0;
+}
+
+.section-head h4 {
+    font-weight: 600;
+    letter-spacing: 0;
+}
+
+.contact .map-box .map {
+    height: 500px;
+}
+
+.cont-map {
+    height: 500px;
+}
+
+.navbar-nav {
+    margin-left: auto;
+}
+button:focus {
+    outline: none;
+}
+
+.projekty-header {
+    background-image: url("../img/projekty/projekty_bg.jpg");
+}
+.kontakt-header {
+    background-image: url("../img/contact/contact_bg.jpg");
+}
+.onas-header {
+    background-image: url("../img/aboutus/aboutus_bg.jpg");
+}
+.onas-sluzby {
+    background-image: url("../img/aboutus/aboutus_video.jpg");
+}
+@media only screen and (max-width: 991px) {
+    .mouse-cursor {
+        display: none;
+    }
+    .navbar {
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        max-height: 100vh;
+    }
+    .navbar .navbar-collapse {
+        padding: 50px 0;
+    }
+    .navbar-nav {
+        margin-left: unset;
+    }
+    .navbar .social-icon a {
+        border: none;
+    }
+    .cont-map {
+        height: 400px;
+    }
+    .contact .map-box {
+        height: 100%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .projekty-header {
+        background-image: url("../img/projekty/projekty_bg-mobile.jpg");
+    }
+    .kontakt-header {
+        background-image: url("../img/contact/contact_bg-mobile.jpg");
+    }
+    .onas-header {
+        background-image: url("../img/aboutus/aboutus_bg-mobile.jpg");
+    }
+    .onas-sluzby {
+        background-image: url("../img/aboutus/aboutus_video-mobile.jpg");
+    }
+    .section-padding {
+        padding: 60px 0;
+    }
+    .portfolio .gallery.inf-lit .items .info {
+        opacity: 1;
+        transform: translate(0) skew(0);
+    }
+}
